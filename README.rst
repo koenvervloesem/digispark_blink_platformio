@@ -29,7 +29,7 @@ You need PlatformIO and the `Atmel AVR platform <https://docs.platformio.org/en/
   pip3 install platformio
   pio platform install atmelavr
 
-The Digispark runs the `Micronucleus <https://github.com/micronucleus/micronucleus>`_ bootloader. If you've bought it recently, the bootloader has a recent version that isn't supported by PlatformIO's older ``micronucleus`` command. Therefore, you need to build the newer version of the command. On Ubuntu or Debian this goes like this:
+The Digispark runs the `Micronucleus <https://github.com/micronucleus/micronucleus>`_ bootloader. If you've bought it recently, the bootloader is a recent version that isn't supported by PlatformIO's older ``micronucleus`` command. Therefore, you need to build the newer version of the command. On Ubuntu or Debian this goes like this:
 
 .. code-block:: shell
 
@@ -51,7 +51,7 @@ Build the code with:
 
   pio run
 
-Upload the code to the Digispark with:
+Build and upload the code to the Digispark with:
 
 .. code-block:: shell
 
