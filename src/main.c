@@ -8,7 +8,7 @@
 #include <util/delay.h>
 
 // Digispark built-in LED
-// Note: on some models the LED is connected to PB0
+// Note: on model A the LED is connected to PB1, on model B to PB0
 #define PIN_LED PB1
 #define DELAY_MS 1000
 
